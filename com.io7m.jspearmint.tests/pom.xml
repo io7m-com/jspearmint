@@ -15,10 +15,13 @@
   <artifactId>com.io7m.jspearmint.tests</artifactId>
   <description>SPIR-V toolkit (Test suite)</description>
   <name>com.io7m.jspearmint.tests</name>
-  <url>https://www.github.com/io7m/jspearmint</url>
+  <url>https://www.io7m.com/software/jspearmint</url>
 
   <properties>
+    <bnd.baseline.skip>true</bnd.baseline.skip>
+    <checkstyle.skip>true</checkstyle.skip>
     <mdep.analyze.skip>true</mdep.analyze.skip>
+    <spotbugs.skip>true</spotbugs.skip>
   </properties>
 
   <dependencies>

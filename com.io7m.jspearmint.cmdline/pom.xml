@@ -15,7 +15,7 @@
   <artifactId>com.io7m.jspearmint.cmdline</artifactId>
   <description>SPIR-V toolkit (Command-line)</description>
   <name>com.io7m.jspearmint.cmdline</name>
-  <url>https://www.github.com/io7m/jspearmint</url>
+  <url>https://www.io7m.com/software/jspearmint</url>
 
   <dependencies>
     <dependency>

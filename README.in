@@ -1,0 +1,12 @@
+
+## jspearmint
+
+The `jspearmint` package implements a set of tools for processing
+[SPIR-V](https://www.khronos.org/spir/) bytecode from Java.
+
+## Features
+
+* High coverage test suite.
+* [OSGi-ready](https://www.osgi.org/)
+* [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
+* ISC license.

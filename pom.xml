@@ -17,7 +17,7 @@
 
   <description>SPIR-V toolkit</description>
   <name>com.io7m.jspearmint</name>
-  <url>https://www.github.com/io7m/jspearmint</url>
+  <url>https://www.io7m.com/software/jspearmint</url>
 
   <modules>
     <module>com.io7m.jspearmint.json_registry</module>
@@ -33,10 +33,15 @@
   </modules>
 
   <properties>
-    <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
-    <com.io7m.xstructural.version>0.0.1</com.io7m.xstructural.version>
+    <!-- Configuration -->
     <io7m.api.previousVersion>0.0.1-SNAPSHOT</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+
+    <!-- io7m dependencies. -->
+    <com.io7m.jbssio.version>2.0.0</com.io7m.jbssio.version>
+    <com.io7m.xstructural.version>1.8.0</com.io7m.xstructural.version>
+
+    <!-- Third-party dependencies. -->
     <io7m.org.immutables.version>2.10.0</io7m.org.immutables.version>
     <jackson.version>2.16.1</jackson.version>
     <junit.version>5.10.1</junit.version>
@@ -50,9 +55,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/jspearmint</url>
-    <connection>scm:git:https://github.com/io7m/jspearmint</connection>
-    <developerConnection>scm:git:https://github.com/io7m/jspearmint</developerConnection>
+    <url>https://www.github.com/io7m-com/jspearmint</url>
+    <connection>scm:git:https://www.github.com/io7m-com/jspearmint</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/jspearmint</developerConnection>
   </scm>
 
   <developers>
@@ -65,7 +70,7 @@
   </developers>
 
   <issueManagement>
-    <url>https://github.com/io7m/jspearmint/issues</url>
+    <url>https://www.github.com/io7m-com/jspearmint/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -79,11 +84,15 @@
       <id>sonatype-nexus-staging</id>
       <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/jspearmint/actions</url>
+    <url>https://www.github.com/io7m-com/jspearmint/actions</url>
   </ciManagement>
 
   <dependencyManagement>

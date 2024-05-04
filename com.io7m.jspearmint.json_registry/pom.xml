@@ -15,7 +15,7 @@
   <artifactId>com.io7m.jspearmint.json_registry</artifactId>
   <description>SPIR-V toolkit (JSON registry handling)</description>
   <name>com.io7m.jspearmint.json_registry</name>
-  <url>https://www.github.com/io7m/jspearmint</url>
+  <url>https://www.io7m.com/software/jspearmint</url>
 
   <dependencies>
     <dependency>

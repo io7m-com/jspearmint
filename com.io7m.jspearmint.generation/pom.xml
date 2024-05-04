@@ -15,7 +15,7 @@
   <artifactId>com.io7m.jspearmint.generation</artifactId>
   <description>SPIR-V toolkit (Source code generation)</description>
   <name>com.io7m.jspearmint.generation</name>
-  <url>https://www.github.com/io7m/jspearmint</url>
+  <url>https://www.io7m.com/software/jspearmint</url>
 
   <dependencies>
     <dependency>
