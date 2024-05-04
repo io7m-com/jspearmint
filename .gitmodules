@@ -1,5 +1,5 @@
 [submodule "com.io7m.jspearmint.tests/src/test/resources/com/io7m/jspearmint/tests/spirv_headers"]
-	path = com.io7m.jspearmint.tests/src/test/resources/com/io7m/jspearmint/tests/spirv_headers
+	path = com.io7m.jspearmint.tests/src/main/resources/com/io7m/jspearmint/tests/spirv_headers
 	url = https://github.com/KhronosGroup/SPIRV-Headers
 [submodule "com.io7m.jspearmint.generation/src/main/resources/com/io7m/jspearmint/generation/spirv_headers"]
 	path = com.io7m.jspearmint.generation/src/main/resources/com/io7m/jspearmint/generation/spirv_headers
