@@ -44,7 +44,7 @@
     <!-- Third-party dependencies. -->
     <io7m.org.immutables.version>2.10.1</io7m.org.immutables.version>
     <jackson.version>2.18.0</jackson.version>
-    <junit.version>5.11.3</junit.version>
+    <org.junit.version>5.11.3</org.junit.version>
   </properties>
 
   <licenses>
@@ -157,16 +157,15 @@
         <artifactId>commons-text</artifactId>
         <version>1.12.0</version>
       </dependency>
+
       <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>${junit.version}</version>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${org.junit.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
-      <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>${junit.version}</version>
-      </dependency>
+
       <dependency>
         <groupId>com.io7m.claypot</groupId>
         <artifactId>com.io7m.claypot.core</artifactId>
