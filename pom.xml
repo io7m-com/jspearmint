@@ -46,7 +46,7 @@
     <!-- Third-party dependencies. -->
     <io7m.org.immutables.version>2.12.1</io7m.org.immutables.version>
     <jackson.version>2.19.2</jackson.version>
-    <org.junit.version>5.14.2</org.junit.version>
+    <org.junit.version>5.14.3</org.junit.version>
   </properties>
 
   <licenses>
